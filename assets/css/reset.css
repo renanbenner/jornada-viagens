@@ -31,7 +31,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+	line-height: normal;
 }
 ol, ul {
 	list-style: none;
@@ -47,4 +47,8 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+
+a {
+	text-decoration: none;
 }
