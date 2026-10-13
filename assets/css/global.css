@@ -27,3 +27,7 @@
   --body-4: normal 400 32px/1.5 "Montserrat", sans-serif;
   --subtitle: normal 400 14px "Montserrat", sans-serif;
 }
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
