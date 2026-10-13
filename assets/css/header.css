@@ -38,6 +38,7 @@ nav {
 .list-links li a {
   color: var(--texto-secundario);
   font: var(--header);
+  font-size: 18px;
 }
 
 @media screen and (min-width: 768px) {
@@ -60,12 +61,16 @@ nav {
     align-items: center;
   }
 
-  .navigation-menu nav {
-    display: block;
+  .list-links li {
+    margin: 0;
   }
 
-  .navigation-menu a:hover {
-    color: var(--vermelho-primario);
+  .list-links li a {
+    font: var(--header);
+  }
+
+  .navigation-menu nav {
+    display: block;
   }
 }
 
@@ -82,6 +87,10 @@ nav {
 
   .logo-mobile {
     display: none;
+  }
+
+  .navigation-menu a:hover {
+    color: var(--vermelho-primario);
   }
 }
 
