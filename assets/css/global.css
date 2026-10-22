@@ -20,12 +20,12 @@
   --h2: normal 700 40px/1 "Montserrat", sans-serif;
   --h3: normal 700 32px/1 "Montserrat", sans-serif;
   --h4: normal 700 28px/1 "Montserrat", sans-serif;
-  --body-1: normal 400 16px "Montserrat", sans-serif;
-  --body-2: normal 400 20px "Montserrat", sans-serif;
-  --body-2-bold: normal 700 20px "Montserrat", sans-serif;
+  --body-1: normal 400 16px/32px "Montserrat", sans-serif;
+  --body-2: normal 400 20px/32px "Montserrat", sans-serif;
+  --body-2-bold: normal 700 20px/32px "Montserrat", sans-serif;
   --body-3: normal 400 24px/1.5 "Montserrat", sans-serif;
   --body-4: normal 400 32px/1.5 "Montserrat", sans-serif;
-  --subtitle: normal 400 14px "Montserrat", sans-serif;
+  --subtitle: normal 400 14px/28px "Montserrat", sans-serif;
   --header: normal 500 24px "Montserrat", sans-serif;
 }
 
