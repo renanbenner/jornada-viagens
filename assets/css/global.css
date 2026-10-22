@@ -31,4 +31,23 @@
 
 body {
   font-family: "Montserrat", sans-serif;
+  color: var(--texto-primario);
+}
+
+.section-title h2{
+  font: var(--h4);
+  text-align: center;
+}
+
+.section-title hr {
+  width: 180px;
+  height: 4px;
+  background-color: var(--vermelho-secundario);
+  margin: 16px auto 36px;
+}
+
+@media screen and (min-width: 768px){
+  .section-title h2 {
+    font: var(--h3);
+  }
 }
