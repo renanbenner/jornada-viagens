@@ -31,4 +31,40 @@
 
 body {
   font-family: "Montserrat", sans-serif;
+  color: var(--texto-primario);
+}
+
+.section-title h2 {
+  font: var(--h4);
+  text-align: center;
+}
+
+.section-title hr {
+  width: 180px;
+  height: 4px;
+  background-color: var(--vermelho-secundario);
+  margin: 16px auto 36px;
+}
+
+.button {
+  display: inline-block;
+  width: 280px;
+  height: 64px;
+  font: var(--body-2-bold);
+  color: var(--background-primario);
+  background-color: var(--vermelho-secundario);
+  border-radius: 16px;
+  line-height: 64px;
+}
+
+@media screen and (min-width: 768px) {
+  .section-title h2 {
+    font: var(--h3);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .button:hover {
+    background-color: var(--vermelho-primario);
+  }
 }
