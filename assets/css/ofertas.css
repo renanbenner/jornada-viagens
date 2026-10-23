@@ -26,8 +26,23 @@
   margin-top: 8px;
 }
 
-.cards span {
+.cards header span {
   font: var(--h3);
   display: inline-block;
   margin-top: 24px;
+}
+
+@media screen and (min-width: 1024px) {
+  .cards {
+    width: 588px;
+    height: 308px;
+  }
+
+  .cards header h3 {
+    font: var(--h1);
+  }
+
+  .cards header span {
+    font: var(--h2);
+  }
 }
