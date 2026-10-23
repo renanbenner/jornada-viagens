@@ -34,7 +34,7 @@ body {
   color: var(--texto-primario);
 }
 
-.section-title h2{
+.section-title h2 {
   font: var(--h4);
   text-align: center;
 }
@@ -46,7 +46,18 @@ body {
   margin: 16px auto 36px;
 }
 
-@media screen and (min-width: 768px){
+.button {
+  display: inline-block;
+  width: 280px;
+  height: 64px;
+  font: var(--body-2-bold);
+  color: var(--background-primario);
+  background-color: var(--vermelho-secundario);
+  border-radius: 16px;
+  line-height: 64px;
+}
+
+@media screen and (min-width: 768px) {
   .section-title h2 {
     font: var(--h3);
   }
