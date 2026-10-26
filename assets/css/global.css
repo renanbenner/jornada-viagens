@@ -34,6 +34,16 @@ body {
   color: var(--texto-primario);
 }
 
+section {
+  width: 312px;
+  margin: 0 auto 88px auto;
+}
+
+.hero {
+  width: 100%;
+  margin: 0;
+}
+
 .section-title h2 {
   font: var(--h4);
   text-align: center;
@@ -48,23 +58,38 @@ body {
 
 .button {
   display: inline-block;
-  width: 280px;
+  min-width: 280px;
   height: 64px;
   font: var(--body-2-bold);
   color: var(--background-primario);
   background-color: var(--vermelho-secundario);
-  border-radius: 16px;
+  border-radius: 8px;
   line-height: 64px;
+  text-align: center;
 }
 
 @media screen and (min-width: 768px) {
+  section {
+    width: 648px;
+  }
+
   .section-title h2 {
     font: var(--h3);
   }
 }
 
 @media screen and (min-width: 1024px) {
+  section {
+    width: 900px;
+  }
+
   .button:hover {
     background-color: var(--vermelho-primario);
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  section {
+    width: 1200px;
   }
 }
