@@ -17,10 +17,6 @@
 }
 
 .cards header {
-  display: block;
-  background-color: transparent;
-  position: static;
-  padding: 0;
   margin-bottom: 24px;
 }
 
@@ -68,7 +64,6 @@
   .cards-ofertas {
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
   }
 }
 
