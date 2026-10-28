@@ -1,75 +1,75 @@
-.section-destinos {
+.destinos .section-destinos {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 40px;
 }
 
-.section-destinos header {
+.destinos .section-destinos header {
   margin-bottom: 24px;
 }
 
-.destinos-img {
+.destinos .section-destinos .destinos-img {
   height: 360px;
   width: 100%;
   margin-bottom: 24px;
 }
 
-.destinos-img-tokio {
+.destinos .section-destinos .destinos-img-tokio {
   background-image: url(../img/destinos/tokyo-mobile.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-.destinos-img-osaka {
+.destinos .section-destinos .destinos-img-osaka {
   background-image: url(../img/destinos/osaka-mobile.jpg);
   background-size: contain;
   background-repeat: no-repeat;
 }
 
-.section-destinos h4 {
+.destinos .section-destinos h4 {
   margin-bottom: 24px;
 }
 
-.section-destinos p {
+.destinos .section-destinos p {
   margin-bottom: 24px;
 }
 
-.section-destinos .button {
+.destinos .section-destinos .button {
   width: 100%;
   text-align: center;
 }
 
 @media screen and (min-width: 768px) {
-  .destinos-img {
+  .destinos .section-destinos .destinos-img {
     height: 452px;
   }
 
-  .destinos-img-tokio {
+  .destinos .section-destinos .destinos-img-tokio {
     background-image: url(../img/destinos/tokyo-tablet-desktop.jpg);
     background-size: cover;
     background-repeat: no-repeat;
   }
 
-  .destinos-img-osaka {
+  .destinos .section-destinos .destinos-img-osaka {
     background-image: url(../img/destinos/osaka-tablet-desktop.jpg);
     background-size: cover;
     background-repeat: no-repeat;
   }
 
-  .section-destinos .button {
+  .destinos .section-destinos .button {
     width: 280px;
   }
 }
 
 @media screen and (min-width: 1024px) {
-  .destinos-img {
+  .destinos .section-destinos .destinos-img {
     height: 452px;
   }
 }
 
 @media screen and (min-width: 1440px) {
-  .section-destinos {
+  .destinos .section-destinos {
     flex-direction: row;
   }
 }
