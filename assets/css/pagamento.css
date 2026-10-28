@@ -1,0 +1,32 @@
+.pagamento .img-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  margin-top: 24px;
+  height: 460px;
+  grid-template-areas:
+    "mala passaporte"
+    "pessoas pessoas"
+  ;
+}
+
+.pagamento .img-content .img.mala {
+    background-image: url(../img/pagamento/mala-mobile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-area: mala;
+}
+
+.pagamento .img-content .img.passaporte {
+    background-image: url(../img/pagamento/passaporte-mobile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-area: passaporte;
+}
+
+.pagamento .img-content .img.pessoas {
+    background-image: url(../img/pagamento/pessoas-mobile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-area: pessoas;
+}
