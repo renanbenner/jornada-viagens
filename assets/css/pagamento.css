@@ -1,0 +1,87 @@
+.pagamento .content-conteiner .img-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  margin-top: 24px;
+  height: 460px;
+  width: 100%;
+  grid-template-areas:
+    "mala passaporte"
+    "pessoas pessoas";
+}
+
+.pagamento .content-conteiner .img-content .img.mala {
+  background-image: url(../img/pagamento/mala-mobile.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  grid-area: mala;
+}
+
+.pagamento .content-conteiner .img-content .img.passaporte {
+  background-image: url(../img/pagamento/passaporte-mobile.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  grid-area: passaporte;
+}
+
+.pagamento .content-conteiner .img-content .img.pessoas {
+  background-image: url(../img/pagamento/pessoas-mobile.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  grid-area: pessoas;
+}
+
+@media screen and (min-width: 768px) {
+  .pagamento .content-conteiner .img-content .img.mala {
+    background-image: url(../img/pagamento/mala-tablet.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .pagamento .content-conteiner .img-content .img.passaporte {
+    background-image: url(../img/pagamento/passaporte-tablet.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .pagamento .content-conteiner .img-content .img.pessoas {
+    background-image: url(../img/pagamento/pessoas-tablet.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .pagamento .content-conteiner {
+    display: flex;
+    flex-direction: row;
+    gap: 23px;
+  }
+
+  .pagamento .content-conteiner .img-content {
+    width: 790px;
+    margin-top: 0;
+  }
+
+  .pagamento .content-conteiner .text-content {
+    width: 384px;
+  }
+
+  .pagamento .content-conteiner .img-content .img.mala {
+    background-image: url(../img/pagamento/mala-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .pagamento .content-conteiner .img-content .img.passaporte {
+    background-image: url(../img/pagamento/passaporte-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .pagamento .content-conteiner .img-content .img.pessoas {
+    background-image: url(../img/pagamento/pessoas-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}

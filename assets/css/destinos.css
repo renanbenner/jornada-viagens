@@ -28,12 +28,10 @@
 }
 
 .section-destinos h4 {
-  font: var(--h4);
   margin-bottom: 24px;
 }
 
 .section-destinos p {
-  font: var(--body-2);
   margin-bottom: 24px;
 }
 
