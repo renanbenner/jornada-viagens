@@ -8,13 +8,13 @@
   position: relative;
 }
 
-.logo-mobile {
+.main-header .logo-mobile {
   display: inline-block;
   width: 68px;
   height: 64px;
 }
 
-.logo-desktop {
+.main-header .logo-desktop {
   display: none;
 }
 
@@ -27,15 +27,15 @@ input[type="checkbox"]:checked ~ nav {
   background-color: var(--background-terciario);
 }
 
-nav {
+.main-header nav {
   display: none;
 }
 
-.list-links li {
+.main-header .list-links li {
   margin: 16px 0 16px 54px;
 }
 
-.list-links li a {
+.main-header .list-links li a {
   color: var(--texto-secundario);
   font: var(--header);
   font-size: 18px;
@@ -46,30 +46,30 @@ nav {
     padding: 38px 60px;
   }
 
-  .navigation-menu {
+  .main-header .navigation-menu {
     margin-top: 0;
     width: 467px;
   }
 
-  .navigation-menu label {
+  .main-header .navigation-menu label {
     display: none;
   }
 
-  .navigation-menu ul {
+  .main-header .navigation-menu ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
 
-  .list-links li {
+  .main-header .list-links li {
     margin: 0;
   }
 
-  .list-links li a {
+  .main-header .list-links li a {
     font: var(--header);
   }
 
-  .navigation-menu nav {
+  .main-header .navigation-menu nav {
     display: block;
   }
 }
@@ -79,17 +79,17 @@ nav {
     padding: 38px 120px;
   }
 
-  .logo-desktop {
+  .main-header .logo-desktop {
     display: block;
     width: 260px;
     height: 64px;
   }
 
-  .logo-mobile {
+  .main-header .logo-mobile {
     display: none;
   }
 
-  .navigation-menu a:hover {
+  .main-header .navigation-menu a:hover {
     color: var(--vermelho-primario);
   }
 }

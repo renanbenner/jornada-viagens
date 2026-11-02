@@ -1,4 +1,4 @@
-.cards-ofertas {
+.ofertas .cards-ofertas {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -6,7 +6,7 @@
   margin-bottom: 88px;
 }
 
-.cards {
+.ofertas .cards {
   color: var(--background-secundario);
   width: 312px;
   height: 288px;
@@ -16,80 +16,80 @@
   background-color: black;
 }
 
-.cards header {
+.ofertas .cards header {
   margin-bottom: 24px;
 }
 
-.cards header p {
+.ofertas .cards header p {
   font: var(--body-2);
 }
 
-.cards header h3 {
+.ofertas .cards header h3 {
   font: var(--h2);
   display: inline-block;
   margin-top: 8px;
 }
 
-.cards header span {
+.ofertas .cards header span {
   font: var(--h3);
   display: inline-block;
   margin-top: 24px;
 }
 
-.cards.japao {
+.ofertas .cards.japao {
   background: url(../img/ofertas/bg-card-japao.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.cards.san-andreas {
+.ofertas .cards.san-andreas {
   background: url(../img/ofertas/bg-card-san-andreas.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.cards.paraiba {
+.ofertas .cards.paraiba {
   background: url(../img/ofertas/bg-card-paraiba.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.cards.manaus {
+.ofertas .cards.manaus {
   background: url(../img/ofertas/bg-card-manaus.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 @media screen and (min-width: 768px) {
-  .cards-ofertas {
+  .ofertas .cards-ofertas {
     flex-direction: row;
     flex-wrap: wrap;
   }
 }
 
 @media screen and (min-width: 1024px) {
-  .cards {
+  .ofertas .cards {
     width: 420px;
     height: 308px;
   }
 
-  .cards header h3 {
+  .ofertas .cards header h3 {
     font: var(--h1);
   }
 
-  .cards header span {
+  .ofertas .cards header span {
     font: var(--h2);
   }
 }
 
 @media screen and (min-width: 1440px) {
-  .cards {
+  .ofertas .cards {
     width: 588px;
   }
 }
 
 @media screen and (min-width: 1920px) {
-  .cards-ofertas {
+  .ofertas .cards-ofertas {
     width: 1440px;
     margin: 0 auto;
   }
