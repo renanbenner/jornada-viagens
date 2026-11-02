@@ -10,44 +10,40 @@
     "pessoas pessoas";
 }
 
+.grid-primeira-linha {
+  height: 254px;
+}
+
 .pagamento .content-conteiner .img-content .img.mala {
-  background-image: url(../img/pagamento/mala-mobile.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: url(../img/pagamento/mala-mobile.jpg) no-repeat center / cover;
   grid-area: mala;
 }
 
 .pagamento .content-conteiner .img-content .img.passaporte {
-  background-image: url(../img/pagamento/passaporte-mobile.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: url(../img/pagamento/passaporte-mobile.jpg) no-repeat center /
+    cover;
   grid-area: passaporte;
 }
 
 .pagamento .content-conteiner .img-content .img.pessoas {
-  background-image: url(../img/pagamento/pessoas-mobile.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: url(../img/pagamento/pessoas-mobile.jpg) no-repeat center / cover;
   grid-area: pessoas;
+  height: 182px;
 }
 
 @media screen and (min-width: 768px) {
   .pagamento .content-conteiner .img-content .img.mala {
-    background-image: url(../img/pagamento/mala-tablet.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: url(../img/pagamento/mala-tablet.jpg) no-repeat center / cover;
   }
 
   .pagamento .content-conteiner .img-content .img.passaporte {
-    background-image: url(../img/pagamento/passaporte-tablet.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: url(../img/pagamento/passaporte-tablet.jpg) no-repeat center /
+      cover;
   }
 
   .pagamento .content-conteiner .img-content .img.pessoas {
-    background-image: url(../img/pagamento/pessoas-tablet.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: url(../img/pagamento/pessoas-tablet.jpg) no-repeat center /
+      cover;
   }
 }
 
@@ -67,21 +63,22 @@
     width: 384px;
   }
 
+  .grid-primeira-linha {
+    height: 245px;
+  }
+
   .pagamento .content-conteiner .img-content .img.mala {
-    background-image: url(../img/pagamento/mala-desktop.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: url(../img/pagamento/mala-desktop.jpg) no-repeat center / cover;
   }
 
   .pagamento .content-conteiner .img-content .img.passaporte {
-    background-image: url(../img/pagamento/passaporte-desktop.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: url(../img/pagamento/passaporte-desktop.jpg) no-repeat center /
+      cover;
   }
 
   .pagamento .content-conteiner .img-content .img.pessoas {
-    background-image: url(../img/pagamento/pessoas-desktop.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: url(../img/pagamento/pessoas-desktop.jpg) no-repeat center /
+      cover;
+    height: 182px;
   }
 }
