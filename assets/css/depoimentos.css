@@ -1,0 +1,30 @@
+.depoimentos .container-depoimentos {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  font: var(--body-1);
+}
+
+.depoimentos .container-depoimentos article footer {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+
+.depoimentos .container-depoimentos article footer img {
+  width: 86px;
+}
+
+.depoimentos .container-depoimentos footer .container-perfil h4 {
+  font: var(--body-2-bold);
+}
+
+.depoimentos .container-depoimentos footer .container-perfil .estrelas {
+  font-size: 32ps;
+}
+
+@media screen and (min-width: 1440px) {
+  .depoimentos .container-depoimentos {
+    flex-direction: row;
+  }
+}
