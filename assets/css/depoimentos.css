@@ -8,19 +8,39 @@
 .depoimentos .container-depoimentos article footer {
   display: flex;
   flex-direction: row;
+  width: 286px;
+  height: 86px;
   gap: 24px;
+  margin-top: 8px;
 }
 
 .depoimentos .container-depoimentos article footer img {
   width: 86px;
 }
 
+.depoimentos .container-depoimentos footer .container-perfil {
+  align-content: center;
+}
+
 .depoimentos .container-depoimentos footer .container-perfil h4 {
   font: var(--body-2-bold);
+  line-height: 32px;
+}
+
+.depoimentos .container-depoimentos footer .container-perfil .avaliacao {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: nowrap;
 }
 
 .depoimentos .container-depoimentos footer .container-perfil .estrelas {
-  font-size: 32ps;
+  display: inline-flex;
+  width: 32px;
+  height: 32px;
+  font-size: 32px;
+  color: var(--vermelho-secundario);
+  justify-content: center;
 }
 
 @media screen and (min-width: 1440px) {
