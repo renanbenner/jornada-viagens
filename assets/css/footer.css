@@ -1,0 +1,43 @@
+.main-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  background-color: var(--background-terciario);
+  text-align: center;
+  padding: 32px 24px 32px 24px;
+  font: var(--body-1);
+  color: var(--background-secundario);
+}
+
+.main-footer .atendimento-e-atribuicao img {
+  width: 160px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+.main-footer .atendimento-e-atribuicao p + p {
+  margin-top: 8px;
+}
+
+.main-footer .redes-sociais p {
+  margin-bottom: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .main-footer {
+    padding: 32px 60px 32px 60px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .main-footer {
+    padding: 52px 120px 52px 120px;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+  }
+
+  .main-footer .redes-sociais .redes-sociais-links {
+    text-align: center;
+  }
+}
