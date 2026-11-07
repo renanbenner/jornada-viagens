@@ -27,6 +27,10 @@
   .main-footer {
     padding: 32px 60px 32px 60px;
   }
+
+  .main-footer .atendimento-e-atribuicao {
+  font: var(--body-2);
+}
 }
 
 @media screen and (min-width: 1440px) {
