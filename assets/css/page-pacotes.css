@@ -1,0 +1,36 @@
+.hero .hero-img.hero-img-pacotes {
+    background: url(../img/page-pacotes/hero.jpg) no-repeat center / cover;
+}
+
+.pagamento .content-conteiner .button{
+    width: 100%;
+    margin: 24px 0 0 0;
+}
+
+.pagamento .content-conteiner .img-content .img.grid-primeira-linha.grid-page-pacotes.mala {
+    background: url(../img/page-pacotes/img-grid-1.jpg) no-repeat center / cover;
+}
+
+.pagamento .content-conteiner .img-content .img.grid-primeira-linha.grid-page-pacotes.passaporte {
+    background: url(../img/page-pacotes/img-grid-2.webp) no-repeat center / cover;
+}
+
+.pagamento .content-conteiner .img-content .img.grid-page-pacotes.pessoas {
+    background: url(../img/page-pacotes/img-grid-3.jpg) no-repeat center / cover;
+}
+
+.hero .hero-footer.hero-footer-page-pacotes {
+    background: url(../img/page-pacotes/hero-rodape.webp) no-repeat center / cover;
+}
+
+@media screen and (min-width: 768px) {
+    .pagamento .content-conteiner .button {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .pagamento .content-conteiner .button {
+        display: none;
+    }
+}
