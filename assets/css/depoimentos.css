@@ -22,7 +22,7 @@
   align-content: center;
 }
 
-.depoimentos .container-depoimentos footer .container-perfil h4 {
+.depoimentos .container-depoimentos footer .container-perfil h3 {
   font: var(--body-2-bold);
   line-height: 32px;
 }
