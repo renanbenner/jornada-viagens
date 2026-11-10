@@ -1,8 +1,13 @@
+.main-header .list-links li a.ativo {
+  text-decoration: underline;
+}
+
 .hero .hero-img.hero-img-pacotes {
   background: url(../img/page-pacotes/hero.webp) no-repeat center / cover;
   display: block;
   height: 460px;
   background-position: -300px 0;
+  margin-bottom: 104px;
 }
 
 .hero .container-hero {
@@ -21,9 +26,16 @@
 .hero .container-hero .conteudo-hero h2 {
   font: var(--h1);
   padding: 0;
+  text-align: left;
 }
+
+.hero .container-hero .conteudo-hero .section-title.title-hero hr {
+  margin: 16px 42px 32px 0;
+}
+
 .hero .container-hero .conteudo-hero p {
   font: var(--body-2);
+  width: 312px;
 }
 
 .pagamento .content-conteiner .button {
@@ -92,7 +104,29 @@
   }
 }
 
+@media screen and (min-width: 1024px) {
+  .hero .hero-img.hero-img-pacotes {
+    height: 500px;
+  }
+  .hero .container-hero .conteudo-hero {
+    padding: 150px 740px 150px 120px;
+  }
+
+  .hero .container-hero .conteudo-hero h2 {
+    width: 443px;
+  }
+
+  .hero .container-hero .conteudo-hero p {
+    width: 579px;
+    height: 192px;
+  }
+}
+
 @media screen and (min-width: 1440px) {
+  .hero .hero-img.hero-img-pacotes {
+    height: 620px;
+  }
+
   .pagamento
     .content-conteiner
     .img-content
