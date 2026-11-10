@@ -2,40 +2,32 @@
   text-decoration: underline;
 }
 
-.hero .hero-img.hero-img-pacotes {
+.page-pacotes.hero {
+  margin-bottom: 104px;
+  color: var(--texto-secundario);
+}
+
+.page-pacotes .hero-img {
   background: url(../img/page-pacotes/hero.webp) no-repeat center / cover;
   display: block;
   height: 460px;
   background-position: -300px 0;
-  margin-bottom: 104px;
 }
 
-.hero .container-hero {
-  position: relative;
-}
-.hero .container-hero .conteudo-hero {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 312px;
-  height: 330px;
+.page-pacotes .conteudo-hero {
   padding: 65px 24px;
-  color: var(--texto-secundario);
-  text-align: left;
 }
-.hero .container-hero .conteudo-hero h2 {
+
+.page-pacotes .conteudo-hero h1 {
   font: var(--h1);
-  padding: 0;
-  text-align: left;
 }
 
-.hero .container-hero .conteudo-hero .section-title.title-hero hr {
-  margin: 16px 42px 32px 0;
+.page-pacotes .conteudo-hero hr {
+  margin: 16px auto 32px 0;
 }
 
-.hero .container-hero .conteudo-hero p {
+.page-pacotes .conteudo-hero p {
   font: var(--body-2);
-  width: 312px;
 }
 
 .pagamento .content-conteiner .button {
@@ -70,9 +62,19 @@
 }
 
 @media screen and (min-width: 768px) {
-  .hero .hero-img.hero-img-pacotes {
-    background-position: 0;
+  .page-pacotes .hero-img {
+    background-position: -150px 0;
+    height: 620px;
   }
+
+  .page-pacotes .conteudo-hero {
+    padding: 210px 70px 110px 120px;
+  }
+
+  .page-pacotes .conteudo-hero p {
+    font: var(--body-4);
+  }
+
   .pagamento .content-conteiner .button {
     display: none;
   }
@@ -105,26 +107,14 @@
 }
 
 @media screen and (min-width: 1024px) {
-  .hero .hero-img.hero-img-pacotes {
-    height: 500px;
-  }
-  .hero .container-hero .conteudo-hero {
-    padding: 150px 740px 150px 120px;
-  }
-
-  .hero .container-hero .conteudo-hero h2 {
-    width: 443px;
-  }
-
-  .hero .container-hero .conteudo-hero p {
-    width: 579px;
-    height: 192px;
+  .page-pacotes .hero-img {
+    background-position: 0;
   }
 }
 
 @media screen and (min-width: 1440px) {
-  .hero .hero-img.hero-img-pacotes {
-    height: 620px;
+  .page-pacotes .conteudo-hero {
+    padding: 160px 740px 160px 120px;
   }
 
   .pagamento
@@ -151,5 +141,15 @@
   .hero .hero-footer.hero-footer-page-pacotes {
     background: url(../img/page-pacotes/hero-rodape-desktop.webp) no-repeat
       center / cover;
+  }
+}
+
+@media screen and (min-width: 1990px) {
+  .page-pacotes .conteudo-hero {
+    padding: 160px 1200px 160px 120px;
+  }
+
+  .hero .hero-footer.hero-footer-page-pacotes {
+    height: 700px;
   }
 }
