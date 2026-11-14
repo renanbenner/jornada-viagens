@@ -60,6 +60,20 @@
   color: var(--cinza-medio);
 }
 
+.formulario .campo input::placeholder {
+  color: var(--cinza-medio);
+  font-weight: 200;
+}
+
+.formulario .quebra-label .campo small {
+  display: none;
+}
+
+.formulario .campo input:invalid {
+  color: var(--vermelho-secundario);
+  font-style: italic;
+}
+
 .formulario .campo .linha {
   position: absolute;
   background-color: var(--vermelho-secundario);

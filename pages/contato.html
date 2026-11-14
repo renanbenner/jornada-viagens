@@ -109,12 +109,31 @@
           <div class="quebra-label">
             <div class="campo">
               <label for="numero">Telefone</label>
-              <input type="tel" name="numero" id="numero" required />
+              <input
+                type="tel"
+                name="numero"
+                id="numero"
+                autocomplete="tel"
+                placeholder="DDD + número sem espaços ou hífens"
+                pattern="[0-9]{11}"
+                required
+                aria-describedby="ajuda-telefone"
+              />
+              <small id="ajuda-telefone"
+                >Preencha com 11 digitos no formato: DDD + número sem espaços ou
+                hífens</small
+              >
             </div>
 
             <div class="campo">
               <label for="email">Email</label>
-              <input type="email" name="email" id="email" required />
+              <input
+                type="email"
+                name="email"
+                id="email"
+                autocomplete="email"
+                required
+              />
             </div>
           </div>
 
@@ -133,7 +152,13 @@
             ></textarea>
           </div>
 
-          <button class="page-contato button" type="submit">Enviar</button>
+          <button
+            class="page-contato button"
+            type="submit"
+            aria-label="Enviar formulário"
+          >
+            Enviar
+          </button>
         </form>
       </section>
       <section class="hero">
