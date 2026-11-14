@@ -1,0 +1,101 @@
+.blog article {
+  margin-bottom: 32px;
+}
+
+.blog h2 {
+  font: var(--h4);
+  margin-bottom: 24px;
+}
+
+.blog p {
+  font: var(--body-2);
+}
+
+.blog p:last-of-type {
+  margin-bottom: 24px;
+}
+
+.blog .page-blog.img {
+  width: 312px;
+  height: 360px;
+}
+
+.blog .page-blog.img.tokyo-1 {
+  background: url(../img/page-blog/tokyo1-mobile.webp) no-repeat center / cover;
+}
+
+.blog .page-blog.img.tokyo-2 {
+  background: url(../img/page-blog/tokyo2-mobile.webp) no-repeat center / cover;
+}
+
+.blog article small {
+  margin-top: 8px;
+  font: var(--subtitle);
+}
+
+.blog .page-blog.img.osaka {
+  background: url(../img/page-blog/osaka-mobile.webp) no-repeat center / cover;
+}
+
+.blog .page-blog.img.hiroshima {
+  background: url(../img/page-blog/hiroshima-mobile.webp) no-repeat center /
+    cover;
+}
+
+.blog .page-blog.img.kyoto {
+  background: url(../img/page-blog/kyoto-mobile.webp) no-repeat center / cover;
+}
+
+.blog .section-indicacao h2 {
+  margin-top: 16px;
+}
+
+.blog article .button {
+  display: block;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+  .blog .page-blog.img {
+    width: 648px;
+    height: 300px;
+  }
+
+  .blog .grid {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    margin-bottom: 10px;
+  }
+
+  .blog .grid .coluna {
+    width: 312px;
+    height: 360px;
+  }
+
+  .blog .page-blog.img.tokyo-2 {
+    background: url(../img/page-blog/tokyo2-tablet.webp) no-repeat center /
+      cover;
+  }
+  .blog .page-blog.img.osaka {
+    background: url(../img/page-blog/osaka-tablet.webp) no-repeat center / cover;
+  }
+
+  .blog .page-blog.img.hiroshima {
+    background: url(../img/page-blog/hiroshima-tablet.webp) no-repeat center /
+      cover;
+  }
+
+  .blog .page-blog.img.kyoto {
+    background: url(../img/page-blog/kyoto-tablet.webp) no-repeat center / cover;
+  }
+
+  .blog article .button{
+    width: 280px;
+    margin: 0 auto 0 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+
+}
