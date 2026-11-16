@@ -134,7 +134,7 @@
 
 @media screen and (min-width: 1024px) {
   .page-contato .conteudo-hero {
-    padding: 160px 740px 160px 120px;
+    padding: 110px 500px 110px 100px;
   }
 
   .hero .page-contato.hero-img.hero-footer {
@@ -144,6 +144,10 @@
 }
 
 @media screen and (min-width: 1440px) {
+  .page-contato .conteudo-hero {
+    padding: 160px 740px 160px 120px;
+  }
+
   .formulario form .quebra-label {
     display: flex;
     flex-direction: row;
